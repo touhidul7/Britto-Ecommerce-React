@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+body {
+  font-family: "Ubuntu", sans-serif!important;
+  font-family: "Hind Siliguri", sans-serif!important;
+}
+
+
+.font-tektur {
+  transition-property: opacity, transform;
+  font-family: "gf_Tektur variant0", Tofu;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: 100%;
+  font-optical-sizing: auto;
+  opacity: 1;
+  line-height: initial;
+  transition-duration: 350ms;
+}
+
+/* Fullscreen Loader */
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 1.2rem;
+  z-index: 1000;
+}
+
+/* Loader Animation */
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 6px solid #fff;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.checkout-progress::after{
+  background: red!important;
+}
+.sh-add-slider-container img{
+  width: 100%!important;
+}
+
+
+/*  */
+
+:root {
+    --swiper-theme-color: white !important;
+    --swiper-navigation-size: 50px !important;
+}
+
+.penthrough{
+  text-decoration: line-through;
+}
