@@ -47,7 +47,7 @@ const MainFooter = () => {
             </p>
 
             <Link
-              to="https://web.facebook.com/messages/t/116061797769426/"
+              to="https://web.facebook.com/brittosoft"
               target="_blank"
               class="inline-flex items-center justify-center px-6 py-4 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700 mt-7"
             >
@@ -93,16 +93,16 @@ const MainFooter = () => {
             <ul class="mt-6 space-y-2">
               <li>
                 <a
-                  href="tel:+8801851003265"
+                  href="tel:+8801828308123"
                   target="_blank"
                   class="flex items-center gap-2  text-sm font-semibold text-gray-200 transition-all duration-200 hover:text-green-600 focus:text-orange-600"
                 >
-                  <FaPhoneAlt /> +880 1851003265
+                  <FaPhoneAlt /> +880 1828308123
                 </a>
               </li>
               <li>
                 <a
-                  href="https://web.facebook.com/vai.dam.koto"
+                  href="https://web.facebook.com/brittosoft"
                   target="_blank"
                   class="flex items-center gap-2  text-sm font-semibold text-gray-200 transition-all duration-200 hover:text-green-600 focus:text-orange-600"
                 >
@@ -111,7 +111,7 @@ const MainFooter = () => {
               </li>
               <li>
                 <a
-                  href="https://wa.me/+8801851003265"
+                  href="https://wa.me/+8801828308123"
                   target="_blank"
                   class="flex items-center gap-2  text-sm font-semibold text-gray-200 transition-all duration-200 hover:text-green-600 focus:text-orange-600"
                 >
@@ -152,7 +152,7 @@ const MainFooter = () => {
         </div>
       </div>
       <div className="fixed bottom-4 right-4 z-50">
-        <Link to={"https://wa.me/+8801851003265"} target="_blank">
+        <Link to={"https://wa.me/+8801828308123"} target="_blank">
           {" "}
           <img src={whatsapp} className="w-18" alt="" />
         </Link>
