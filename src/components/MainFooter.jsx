@@ -47,7 +47,7 @@ const MainFooter = () => {
             </p>
 
             <Link
-              to="https://web.facebook.com/brittosoft"
+              to="https://web.facebook.com/brittosoftbd"
               target="_blank"
               class="inline-flex items-center justify-center px-6 py-4 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700 mt-7"
             >
@@ -102,7 +102,7 @@ const MainFooter = () => {
               </li>
               <li>
                 <a
-                  href="https://web.facebook.com/brittosoft"
+                  href="https://web.facebook.com/brittosoftbd"
                   target="_blank"
                   class="flex items-center gap-2  text-sm font-semibold text-gray-200 transition-all duration-200 hover:text-green-600 focus:text-orange-600"
                 >
